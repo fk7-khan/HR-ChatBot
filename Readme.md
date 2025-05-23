@@ -1,60 +1,86 @@
-HR Chatbot — Automating HR Queries for Efficiency
+HR Query Chatbot — Automating HR Queries for Efficiency
 
-👤 Created by: Farhan Ahmad Khan
+👤 Created by: Farhan Ahmad Khan || 🎓 Aspiring HR Professional ||
 📧 Contact: kfarhan805@gmail.com
 🔗 GitHub: https://github.com/fk7-khan
 🔗 LinkedIn: https://www.linkedin.com/in/farhan-ahmad-khan-072283120/
 
 
-About This Project
-The HR Chatbot is a simple, rule-based chatbot designed to automate common HR queries in corporate environments, improving efficiency and employee experience by providing instant answers to frequently asked questions. This tool helps HR departments reduce repetitive tasks and frees up time for strategic initiatives.
+# 💼 HR Chatbot – Rule-Based Automation
 
-Built with Python and Flask, this project demonstrates my practical knowledge of process automation and conversational UI design — key skills for modern HR professionals aiming to leverage technology for operational excellence.
+An interactive web-based HR Chatbot designed using Flask, enabling users to get instant answers to common HR-related queries. This project demonstrates the power of automation in streamlining internal HR communications using a rule-based logic system.
 
-Features
-Interactive chat interface with easy-to-select common HR questions
+---
 
-Supports question number or keyword input for flexible user interaction
+## 🔍 Features
 
-Instant, accurate answers for queries related to HR policies, leave, office hours, and more
+- ✅ Simple, intuitive chat-based web interface  
+- 📋 Pre-loaded question list for quick access  
+- 🔁 Responds to both numbers and keywords  
+- 🧠 Rule-based backend logic (no ML model required)  
+- 🌐 Hosted live on PythonAnywhere for easy access  
 
-Option to exit the chat with a polite closing message
+---
 
-Designed for terminal and web-based use
+## 🌐 Live Demo
 
-Sample Interaction
+🔗 [Click here to try the live chatbot](https://fk7khan.pythonanywhere.com)
 
-Ask your HR Chatbot a question:
+---
+
+## 🖥️ Technologies Used
+
+- Python 3  
+- Flask (Web framework)  
+- HTML/CSS (Frontend interface)  
+- JavaScript (Chat interactivity)  
+- PythonAnywhere (Hosting)  
+- Flask-CORS (for cross-origin requests)  
+
+---
+
+## 🗃️ Folder Structure
+
+```
+📁 hrchatbot/
+├── app.py              # Main Flask app
+├── rules.py            # Rule-based logic for chatbot responses
+├── requirements.txt    # Python dependencies
+├── templates/
+│   └── index.html      # Frontend UI # Custom styles (dark theme)
+```
+
+---
+
+## ✨ Sample Interaction
+
+> **User sees:**
+```
+Welcome! Ask your HR Chatbot a question:
+
 1. How do I contact HR?
 2. What is the leave policy?
 3. Tell me about the office hours.
 4. I want to apply for leave.
 5. What are the holidays this year?
-0. Exit
+6. Exit
+```
 
-Enter question number or keyword: 2
+> **User types:** `2`  
+> **Bot responds:** `Employees are entitled to 18 days of paid leave per year.`
 
-Q: What is the leave policy?
-A: Employees are entitled to 18 days of paid leave per year.
-Technologies Used
-Python 3.13
+---
 
-Flask (Web Framework)
 
-Flask-CORS (Cross-Origin Requests)
 
-HTML/CSS/JavaScript for frontend
+## 👤 Author
 
-How This Project Adds Value
-Demonstrates HR process automation to streamline employee communication
+Made with ❤️ by [Farhan Ahmad Khan]  
+ 
 
-Highlights ability to build practical tools that improve organizational efficiency
 
-Showcases solid understanding of technical integration without deep coding complexity — an asset for HR professionals working alongside tech teams
+---
 
-Get In Touch
-I’m always open to connect, collaborate, and share ideas about HR technology and innovation. Feel free to reach out!
+## 📝 License
 
-Farhan Ahmad Khan
-Aspiring HR Leader
-
+This project is licensed under the MIT License - feel free to use and modify.
